@@ -1,0 +1,55 @@
+/*body 圖片區 文字區*/
+#no1{width: 700px;margin: 0 auto 50px auto;}
+#box2{width: 100%;overflow: hidden;display: flex; justify-content: space-between; }
+.itemImage{width: 40%;margin-top: 30px;padding: 20px;
+        border: 3px solid gray;border-radius: 10px; 
+    
+}
+img.photo{display: block;margin: 25% auto;width: 100%;}
+img.photo2{width: 100%;display: block;margin: auto;}
+.itemImage h3{font-weight: 500;font-size: 25px;padding: 15px 0;
+    text-align:center;
+}
+.item-text{line-height: 1.5em;text-align: justify;letter-spacing:0.05em;
+
+}
+.card p {
+    padding: 10px 0 20px 0;}
+/*下方文字顯示區*/
+.displayArea{display: flex; justify-content: space-between;
+        }
+
+.displayArea div{width: 30%;}
+button{font-size:1.3em;border-radius: 5px 5px 0 0 ;padding: 5px 10px;
+        background-color: gray;color: #fff;
+    
+}
+.current{background-color: #0089A7;}
+.tabcontent{border: 3px solid gray;border-radius: 10px;}
+.tablinks:hover {
+    cursor: pointer;
+    background-color: #0089A7;
+}
+.displayArea h3{font-size: 2em;padding: 20px;color: gray;}
+
+.displayArea p {
+   font-family: 'Segment7Standard';
+   font-weight: normal;
+   font-style: italic;
+   font-size: 3em;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+@media (max-width:767px){
+    img.photo{margin: 0;width: 100%;} 
+    img.photo2{margin: auto;width: 50%;} 
+    #no1 {width: 90%;}
+    .displayArea{display:block; justify-content:flex-start;
+        }
+    .displayArea div{width: 100%;margin: auto;}
+    #box2{display:block; justify-content:none;}
+    .itemImage{width: auto;}
+}

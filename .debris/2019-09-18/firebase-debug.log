@@ -1,0 +1,29 @@
+[debug] [2019-09-18T07:03:53.037Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T07:03:53.040Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\student\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-09-18T07:03:53.041Z] CLI Version:   7.2.2
+[debug] [2019-09-18T07:03:53.041Z] Platform:      win32
+[debug] [2019-09-18T07:03:53.041Z] Node Version:  v10.16.0
+[debug] [2019-09-18T07:03:53.042Z] Time:          Wed Sep 18 2019 15:03:53 GMT+0800 (GMT+08:00)
+[debug] [2019-09-18T07:03:53.042Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T07:03:53.116Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T07:03:53.116Z] > authorizing via signed-in user
+[debug] [2019-09-18T07:03:53.116Z] [iam] checking project iotlouise for permissions ["firebase.projects.get"]
+[debug] [2019-09-18T07:03:53.118Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-18T07:03:53.118Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-18T07:03:53.217Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T07:03:53.321Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/iotlouise:testIamPermissions  
+
+[debug] [2019-09-18T07:03:54.294Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T07:03:54.296Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/iotlouise  
+ 
+[debug] [2019-09-18T07:03:54.941Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\firebase_web'...
+[info] 
+[debug] [2019-09-18T07:03:54.947Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/iotlouise/webApps/-/config  
+ 
+[debug] [2019-09-18T07:03:55.896Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

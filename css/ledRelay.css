@@ -1,0 +1,84 @@
+
+/*body 圖片區 文字區*/
+#no1{width: 50%;margin: 0 auto 50px auto; }
+.itemImage{margin-top: 30px;padding: 20px;
+        border: 3px solid gray;border-radius: 10px;
+}
+img.photo{width: 300px;display: block;margin: auto;}
+.itemImage h3{font-weight: 500;font-size: 25px;padding: 15px 0;
+    text-align:center;
+}
+.item-text{line-height: 1.5em;text-align: justify;letter-spacing:0.05em;
+
+}
+    
+
+/*body區 按鈕區*/
+.card>div{border-radius: 10px;border:3px solid gray;min-height: 200px;padding: 20px;line-height: 1.2em;text-align:center;
+    margin: 20px auto 50px auto;box-shadow: 1px 1px 2px gray;
+
+    }
+.card h5{font-weight: 500;font-size: 25px;padding: 5px 0;}
+.card p{padding: 10px 0 50px 0;line-height: 1.5em;text-align: justify;}
+/*滑動按鈕*/
+
+#btn4 {
+        margin: 0 auto;
+	        width: 60px;
+            height:30px;
+            border: 2px solid #0089A7;
+        
+            border-radius: 30px;
+            color: #0089A7;
+            text-decoration: none;
+            box-shadow: 1px 1px 2px gray;overflow: hidden;
+    
+}
+        #btn3{
+            height: 30px;width: 70px;border-radius: 30px;
+            background-color:rgba(0, 137, 167, 0.75);
+            transform: translate(-40px,0px);transition:all 0.5s;
+}
+        #btn2 {
+            height: 26px;width: 26px;border-radius: 26px;background-color:#aaa3a3;float: right;
+            border: 2px solid #0089A7; 	
+}
+        
+        .btn3-open{transform: translate(-10px,0px)!important;}
+
+
+/*body區 end*/
+
+/*=============影片=======================*/
+
+.video-container {
+
+position: relative;
+
+padding-bottom: 56.25%;
+
+padding-top: 30px;
+
+height: 0;
+
+overflow: hidden;
+
+}
+.video-container iframe, .video-container object, .video-container embed {
+
+position: absolute;
+
+top: 0;left: 0;
+
+width: 100%;
+
+height: 100%;}
+
+@media (max-width:767px){
+    img.photo{margin: 0;width: 100%;} 
+    #no1 {width: 90%;}
+    
+    
+}
+
+

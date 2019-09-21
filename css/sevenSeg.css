@@ -1,0 +1,8 @@
+.digits button{font-size:2em;padding: 0 10px;margin: 5px;border-radius: 5px;
+        border: 1px solid gray;box-shadow: 1px 1px 2px gray;
+        background-color: gray;color: #fff;width: 40px;
+}
+
+
+
+.selected{background-color: #9F353A;}
