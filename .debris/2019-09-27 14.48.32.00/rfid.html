@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RFID門禁監視器</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/ledRelay.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="/__/firebase/6.5.0/firebase-app.js"></script>
+    <script src="/__/firebase/6.5.0/firebase-database.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="js/loadFile.js"></script>
+    <script src="js/ledRelay.js"></script>
+    <script src="js/rfid.js"></script>
+</head>
+<body>
+    <header id="head">
+<!-- load header.html -->
+        
+    </header>
+<div>
+    <section id="no1">
+       <section class="itemImage">
+
+                <img src="img/rfid.jpg" width="500px"  
+                alt="two channel relay" class="photo">
+                <div class="card-body">
+                    <h3>RFID門禁監視器</h3>
+                
+                    <p class="item-text">我們常用的悠遊卡、門禁卡都是 RFID 無線射頻辨識的應用，無線射頻辨識（英文：Radio Frequency IDentification，縮寫：RFID）是一種無線通訊技術，可以通過無線電訊號識別特定目標並讀寫相關數據，而無需識別系統與特定目標之間建立機械或者光學接觸。[維基百科]
+</p>
+
+
+                </div>
+            </section>
+        <div class="card" >
+ 
+  <div>
+    <h5>Led和Relay的控制</h5>
+    <p>控制Firebase 及時資料庫的LED欄位，可遠端控制家庭燈具</p>
+<!--    <a href="#" class="btn">LED狀態：<span class="status">關閉</span></a>--> 
+            <div id="btn4">
+                <div id="btn3">
+                    <div id="btn2"></div>  
+                </div>
+            </div>
+            
+        
+  </div>
+</div>
+  <div class="video-container">
+   <iframe width="966" height="543" src="https://www.youtube.com/embed/qBf6_rOPXTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   <br>
+   <br>
+   <div><iframe height="700px" width="100%" src="https://repl.it/@wanchenwanchen/74chc595sevensegmented?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe></div>
+   
+    </section>
+    <footer>
+<!--load footer.html-->
+    </footer>
+</div>
+
+<div class='alert'>
+        <div>
+        <form action="#" >
+
+            請輸入E-mail:
+            <input type="email" name="email">
+            <br><br>
+            請輸入password:
+            <input type="password" name="pwd" >
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="submit" value="cancel" class="cancel">
+            </form>
+        </div>
+</div>
+
+
+
+
+
+</body>
+</html>
